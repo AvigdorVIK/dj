@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script href="js/scripts/main.js" ></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" href="{% static 'main/css/index.css' %}" rel= "stylesheet">
+    <!--title>Aimol Ukraine</title-->
+   <title>{{ title }}</title>
+</head>
+<body>
+    <div class="menu">
+        <!--div class="conteiner"-->
+           <div class="menu_iner">
+            <div class="logo">
+               <a href="{% url 'home' %}"><img  src= "{% static 'main/img/logo.196x65x1.png'  %}"> </a>
+
+            </div>
+            <ul class="nav">
+                <li><a href="{% url 'about' %}">Про компанію</a></li>
+                <li><a href="{% url 'product' %}">Продукт</a></li>
+                <li><a href="{% url 'contact' %}">Контакти</a></li>
+            </ul>
+        </div>
+        <!--/div-->
+    </div>
+    <div class="imag">
+        <!--img src="{% static 'main/img/aimol.jpg' %}"-->
+    </div>
+
+
+    <div class="teht">
+        <p><h2>Науково-виробниче підприємство</h2>
+        <strong>AIMOL</strong> виробляє високоякісні мастильні матеріали для будь-якого обладнання
+        у сегменті харчового виробництва. Застосовуючі всі доступні та сучасні технології які
+        ми вдосконалили за останні 30 років, наша продукція гарнтує якісну роботу вашого
+        обладнання та максимальний захист від його зносу. Наші фахівці допоможуть підібрати
+        мастило яке буде стовідсотково відповідати технічним вимогам вашого обладнання.</p>
+    </div>
+{% block about %}
+    {% endblock %}
+
+
+{% block product %}
+    {% endblock %}
+ <!--div-- class="prodlist">
+    <h2 id="Product">Product</h2>
+
+    <p><img src="img/main/foodline-aw.480x480.png" width="250" height="250" align="top">Foodline-aw super mastilo
+    Dali opis productu</p>
+    <br>
+    <p><img src="img/main/foodline-chain-68.300x0x1.png"width="250" height="250" align="top">
+    Foodline-chain dooje garne mastilo</p>
+    <br>
+    <p>Oil 3</p>
+    <br>
+    <p>Oil 4</p>
+    <br>
+    <p>Oil 5</p>
+
+
+
+
+    </div-->
+{% block contact %}
+    {% endblock %}
+    <!--div class="prodlist">
+        <h2 id="Contact">Informations</h2>
+
+        <ul>
+           <li> Adres: *****</li>
+           <li> Telephone: +1111 1111 111 11 </li>
+           <li> Email: ****</li>
+        </ul>
+    </div-->
+    {% block home %}
+    {% endblock %}
+
+
+    <div class="box">
+        <div class="conteiner">
+            <div class="box__inner">
+                <div class="logo">
+               <a href="{% url 'home' %}"><img  src= "{% static 'main/img/logo.196x65x1.png'  %}"> </a>
+
+            </div>
+                <div class="item">
+                    <i class="fa fa-industry" aria-hidden="true"></i>
+                    <div class="number">10 000</div>
+                    <div class="text">Клієнтів</div>
+                    <div class="line"></div>
+                </div>
+                <div class="item">
+                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+
+                    <div class="number">80</div>
+                    <div class="text">Країн</div>
+                    <div class="line"></div>
+                </div>
+                <div class="item">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+
+                    <div class="number">30</div>
+                    <div class="text">Років</div>
+                    <div class="line"></div>
+                </div>
+                <div class="item">
+                    <i class="fa fa-cogs" aria-hidden="true"></i>
+
+                    <div class="number">100%</div>
+                    <div class="text">Якість</div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

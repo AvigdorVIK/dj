@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body {
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*.menu {
+    position: fixed;
+    background-color: #fff;
+
+}*/
+
+.conteiner {
+    display:flex;
+    width: 100%;
+
+
+
+}
+
+.menu_iner {
+    margin: 25px 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav li a {
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+    padding: 15px 30px;
+
+}
+.nav li a:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.box{
+
+    background: rgb(89, 17, 5);
+    background: linear-gradient(90deg, rgb(5, 2, 64) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin-top:-80xp;
+    width: 100%;
+    /*margin-left: -10px;*/
+    /*margin-bottom: -10px;*/
+}
+
+.box__inner{
+    height: 170px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+.item{
+    text-align: center;
+    position: absolut;
+    bottom: 0;
+
+}
+.number{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+.text{
+    color:rgb(252, 212, 196);
+    font-size: 20px;
+    margin-bottom: - 10px;
+    margin-top: 10px;
+
+}
+.line{
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+i.fa{
+    font-size: 30px;
+    color: #fff;
+
+}
+
+
+p{
+    color: rgb(32, 29, 29);
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; /*Arial, Helvetica, sans-serif;*/
+    /*font-size: 18px;
+    line-height: normal;*/
+    align-items: center;
+}
+.teht {
+    display: ;
+    justify-content: space-around ;
+    font-family:  Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    /*align-items: center;*/
+    border: 20px;
+    padding: 20px 300px 20px 300px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #404040;
+}
+
+h2{
+    font-family:  Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: #404040;
+
+}
+
+
+.imag{
+   /*background-image: url(../img/main/aimol.jpg);*/
+   /*margin-top: 130px;*/
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 150px;
+   width: 100%;
+   background-position: center;
+   background-image: url(../img/aimol.jpg);
+   /*margin-left: -10px;*/
+ }
+
+ .imag1{
+   /*background-image: url(../img/main/aimol.jpg);*/
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 400px;
+   width: 100%;
+   background-position: center;
+   background-image: url(../img/about.jpg);
+   margin-top: -80px;
+   /*margin-left: -10px;*/
+
+ }
+ .imag2{
+   /*background-image: url(../img/main/aimol.jpg);*/
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 400px;
+   width: 100%;
+   background-position: center;
+   background-image: url(../img/product0x1.jpg);
+   margin-top: -80px;
+   }
+ .imag3{
+   /*background-image: url(../img/main/aimol.jpg);*/
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 400px;
+   width: 100%;
+   background-position: center;
+   background-image: url(../img/contact1.jpg);
+   margin-top: -80px;
+
+ }
+   .imag4{
+   /*background-image: url(../img/main/aimol.jpg);*/
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 400px;
+   width: 100%;
+   background-position: center;
+   background-image: url(../img/home.jpg);
+   margin-top: -80px;
+
+
+ }
+
+ h5{
+   color: #fff;
+   text-align: center;
+   padding: 150px;
+   font-size: 80px;
+   font-family: sans-serif;
+ }
+
+
+ .prodlist{
+    display: block;
+    justify-content: space-around ;
+    align-items: stretch;
+    border: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: right !important:
+    text-decoration: none;
+    color: rgb(32, 29, 29);
+ }
+
+
+ .contact{
+    font-family:  Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 28px;
+    color: 404040;
+
+ }
+
+ div.conteiner_con{
+    display: flex;
+    justify-content: space-between;
+
+
+ }
+ .map{
+    padding: 15px 15px 15px 250px;
+    height: auto;
+    width: auto;
+    margin-left: -10px;
+
+ }
+
+
+
+
+
+
+
+
